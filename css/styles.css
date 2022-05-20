@@ -8,9 +8,21 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 /* ----------------HEADER------------- */
 
-.header-list {
+*/ .header-list {
   list-style: none;
 }
 
@@ -102,3 +114,57 @@ body {
   list-style: none;
 }
 /* ---------------TEAM--------------- */
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-list {
+  list-style: none;
+}
+.team-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* -------------FOOTER----------------- */
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.contacts-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.contacts-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.contacts-list {
+  list-style: none;
+}
