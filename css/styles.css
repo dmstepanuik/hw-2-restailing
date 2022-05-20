@@ -22,7 +22,7 @@ visually-hidden {
 }
 /* ----------------HEADER------------- */
 
-*/ .header-list {
+.header-list {
   list-style: none;
 }
 
@@ -143,13 +143,22 @@ visually-hidden {
   background-color: #2f303a;
 }
 .footer-logo {
-  font-family: inherit;
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color: #2196f3;
+}
+.footer-color {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
 .contacts-item {
   font-weight: 400;
