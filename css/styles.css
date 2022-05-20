@@ -90,3 +90,15 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
+/* ---------ABOUT---------------- */
+.about {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.about-list {
+  list-style: none;
+}
+/* ---------------TEAM--------------- */
