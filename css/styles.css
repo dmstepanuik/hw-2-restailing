@@ -10,6 +10,7 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--main-title-color);
   font-style: normal;
+  font-size: 14px;
 }
 visually-hidden {
   position: absolute;
@@ -24,6 +25,13 @@ visually-hidden {
   margin: -1px;
 }
 /* ----------------HEADER------------- */
+.current {
+  color: var(--accent-color);
+}
+.header-nav.current {
+  color: var(--accent-color);
+}
+
 .header-list {
   list-style: none;
 }
@@ -108,6 +116,9 @@ visually-hidden {
 .hero-btn {
   background: var(--accent-color);
 }
+.work-btn-current {
+  color: var(--accent-color);
+}
 
 .hero-btn {
   font-family: inherit;
@@ -150,6 +161,7 @@ visually-hidden {
 .work-list {
   list-style: none;
 }
+
 /* ---------------TEAM--------------- */
 .team-title {
   font-weight: 700;
@@ -194,6 +206,8 @@ visually-hidden {
 }
 
 .contacts-item {
+  list-style: none;
+  text-decoration: none;
   font-weight: 400;
   font-size: 14px;
   font-style: normal;
@@ -202,6 +216,7 @@ visually-hidden {
   color: var(--main-title-color);
 }
 .contacts-link {
+  text-decoration: none;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
