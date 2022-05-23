@@ -60,20 +60,21 @@ visually-hidden {
   letter-spacing: 0.02em;
   color: var(--forth-title-color);
 }
-.header-tel {
+.header-item-tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--third-title-color);
 }
-.header-maito {
+.header-item-maito {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--accent-color);
 }
+
 .header-link:hover,
 .header-link:focus {
   color: var(--accent-color);
@@ -161,6 +162,10 @@ visually-hidden {
 .work-list {
   list-style: none;
 }
+.work-item-btn-current {
+  background-color: var(--accent-color);
+  color: var(--btn-color);
+}
 
 /* ---------------TEAM--------------- */
 .team-title {
@@ -186,6 +191,7 @@ visually-hidden {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--third-title-color);
+  background-color: #f5f4fa;
 }
 /* -------------FOOTER----------------- */
 .footer {
