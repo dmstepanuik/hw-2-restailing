@@ -1,7 +1,7 @@
 :root {
   --btn-color: #ffffff;
   --main-title-color: #ffffff;
-  --second-title-color: #30303030;
+  --second-title-color: #2f303a;
   --third-title-color: #757575;
   --forth-title-color: #212121;
   --accent-color: #2196f3;
@@ -53,12 +53,12 @@ visually-hidden {
 .link {
   text-decoration: none;
 }
-.header-link {
+.header-item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--forth-title-color);
+  color: var(--second-title-color);
 }
 .header-item-tel {
   font-weight: 500;
@@ -82,7 +82,7 @@ visually-hidden {
 
 /* --------------------HERO------------ */
 .hero {
-  background: var(--forth-title-color);
+  background: var(--second-title-color);
 }
 .porfolio {
   background: var(--main-title-color);
@@ -152,7 +152,7 @@ visually-hidden {
 .about {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.67;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--forth-title-color);
 }
@@ -171,14 +171,14 @@ visually-hidden {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.16;
+  line-height: 0.85;
   letter-spacing: 0.03em;
   color: var(--forth-title-color);
 }
 .team-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--forth-title-color);
 }
@@ -186,19 +186,24 @@ visually-hidden {
   list-style: none;
 }
 .team-item {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--third-title-color);
+  color: var();
+}
+.team {
   background-color: #f5f4fa;
 }
 /* -------------FOOTER----------------- */
 .footer {
-  background-color: var(--forth-title-color);
+  background-color: var(--second-title-color);
 }
 .footer-title {
   color: var(--main-title-color);
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
 }
 .footer-link {
   font-family: 'Raleway', sans-serif;
