@@ -25,16 +25,8 @@ body {
   margin: -1px;
 }
 /* ----------------HEADER------------- */
-.header-current {
-  color: var(--accent-color);
-}
-.header-nav.current {
-  color: var(--accent-color);
-}
-.header-list {
+.list {
   list-style: none;
-}
-.header-link {
 }
 
 .logo {
@@ -49,38 +41,46 @@ body {
 .logo-accent {
   color: var(--forth-title-color);
 }
-.list {
+.link {
   text-decoration: none;
 }
-.header-item {
+/* .header-item { 
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--second-title-color);
-}
-.header-item-tel {
+} */
+.nav-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--third-title-color);
 }
-.header-item-maito {
+.header-item-tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--accent-color);
 }
-.header-link:hover,
-.header-link:focus {
+.header-contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--accent-color);
 }
-.header-item:hover,
-.header-item:focus {
+
+.link:hover,
+.link:focus {
   color: var(--accent-color);
 }
+.current {
+  color: var(--accent-color);
+}
+
 /* --------------------HERO------------ */
 .hero {
   background: var(--second-title-color);
