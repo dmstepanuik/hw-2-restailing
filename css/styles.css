@@ -120,6 +120,7 @@ body {
 }
 .work-btn-current {
   font-family: inherit;
+  cursor: pointer;
   color: var(--accent-color);
 }
 .work-item-btn {
@@ -134,6 +135,7 @@ body {
 .work-btn-current-link:focus {
   color: var(--accent-color);
 }
+
 .work-item-btn-link:hover,
 .work-item-btn-link:focus {
   color: var(--accent-color);
